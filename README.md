@@ -5,7 +5,7 @@ This repository is a collection of Python code examples and projects focused on 
 ## Projects
 
 This repository currently includes the following projects:
-* ### [Basic NLP Chatbot](./basic_nlp_chatbot.py)
+* ### [Basic NLP Chatbot](./Basic_NLP_Chatbot.py)
     A simple rule-based or machine learning-powered chatbot demonstrating fundamental Natural Language Processing (NLP) techniques. This project covers text preprocessing, intent recognition, and response generation.
 
 * ### [Predicting Car Prices](./predicting_car_prices)
