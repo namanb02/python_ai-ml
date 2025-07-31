@@ -13,4 +13,8 @@ This repository currently includes the following projects:
 
 
 * ### [Predicting Car Prices](./predicting_car_prices)
-    An end-to-end machine learning project focused on predicting car prices based on various features. This includes data cleaning, exploratory data analysis, feature engineering, model training (e.g., using regression algorithms), and model evaluation.
+  This project focuses on building a machine learning model to predict car prices. It utilizes a preprocessed dataset containing over 200 examples and more than 20 features. The workflow includes:
+    * **Data Transformation:** Categorical features are converted into a computer-interpretable numerical format using `ColumnTransformer` and `OneHotEncoder`, while numerical features are scaled using `StandardScaler`.
+    * **Model Selection & Hyperparameter Tuning:** `GridSearchCV` is employed to find the optimal hyperparameters for various regression models, including Linear Regression, Random Forest, and Gradient Boosting.
+    * **Model Training & Evaluation:** The best-performing models are trained and evaluated using key regression metrics: Root Mean Squared Error (RMSE) and R-squared ($R^2$) score.
+    The core analysis and model development are presented in the [Jupyter Notebook](./predicting_car_prices/predicting_car_prices.ipynb) within this directory.
