@@ -1,2 +1,3 @@
-# python_ai-ml
-This GitHub repo, "python_ai-ml", holds Python code for AI/ML. It covers data cleaning, ML model training for predictive tasks, and includes NLP projects. Ideal for learning and applying core AI/ML concepts.
+# Python AI/ML Projects
+This repository is a collection of Python code examples and projects focused on Artificial Intelligence (AI) and Machine Learning (ML). It aims to provide practical implementations of various AI/ML concepts, from foundational data preparation to advanced predictive modeling and natural language processing.
+Currently features projects on Natural Language Processing and Predictive Modeling.
