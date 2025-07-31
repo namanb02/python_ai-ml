@@ -5,7 +5,7 @@ This repository is a collection of Python code examples and projects focused on 
 ## Projects
 
 This repository currently includes the following projects:
-* ### [Basic NLP Chatbot](./Basic_NLP_Chatbot.py)
+* ### [Basic NLP Chatbot](./basic_nlp_chatbot)
   This project implements a basic chatbot that processes user input. It first attempts **intent recognition** to match the input with predefined conversational topics. If a match is found, a corresponding response is provided. If no specific intent is recognized, the chatbot leverages **sentiment analysis** using the `TextBlob` library to determine the emotional tone (polarity) of the user's message.
     * If the sentiment polarity is greater than 0 (positive), the chatbot responds with a randomly chosen message from a set of predefined positive responses.
     * If the sentiment polarity is less than 0 (negative), it sends a randomly selected response from predefined negative responses.
