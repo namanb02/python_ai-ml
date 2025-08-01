@@ -27,7 +27,7 @@ To run these projects locally, follow these steps:
 
 ```
 
-git clone [https://github.com/namanb02/python_ai-ml.git](https://github.com/namanb02/python_ai-ml.git)
+git clone https://github.com/namanb02/python_ai-ml.git
 cd python_ai-ml
 
 ```
@@ -40,14 +40,14 @@ Each project has its own `requirements.txt` for dependencies.
 # Example for the Basic NLP Chatbot
 
 cd basic_nlp_chatbot
-python -m venv .venv           \# Create a virtual environment
-source .venv/bin/activate      \# Activate the virtual environment (Linux/macOS)
+python -m venv .venv           # Create a virtual environment
+source .venv/bin/activate      # Activate the virtual environment (Linux/macOS)
 
-# .venv\Scripts\activate       \# Activate the virtual environment (Windows Cmd)
+# .venv\Scripts\activate       # Activate the virtual environment (Windows Cmd)
 
-# .venv\Scripts\Activate.ps1   \# Activate the virtual environment (Windows PowerShell)
+# .venv\Scripts\Activate.ps1   # Activate the virtual environment (Windows PowerShell)
 
-pip install -r requirements.txt \# Install project-specific dependencies
+pip install -r requirements.txt # Install project-specific dependencies
 
 ```
 
@@ -67,5 +67,4 @@ python basic_nlp_chatbot.py
 cd ../predicting_car_prices
 jupyter notebook predicting_car_prices.ipynb
 
-```
 ```
