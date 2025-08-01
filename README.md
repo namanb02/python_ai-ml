@@ -18,3 +18,54 @@ This repository currently includes the following projects:
     * **Model Selection & Hyperparameter Tuning:** `GridSearchCV` is employed to find the optimal hyperparameters for various regression models, including Linear Regression, Random Forest, and Gradient Boosting.
     * **Model Training & Evaluation:** The best-performing models are trained and evaluated using key regression metrics: Root Mean Squared Error (RMSE) and R-squared ($R^2$) score.
     The core analysis and model development are presented in the [Jupyter Notebook](./predicting_car_prices/predicting_car_prices.ipynb) within this directory.
+
+## Getting Started
+
+To run these projects locally, follow these steps:
+
+1. **Clone the Repository:**
+
+```
+
+git clone [https://github.com/namanb02/python_ai-ml.git](https://github.com/namanb02/python_ai-ml.git)
+cd python_ai-ml
+
+```
+
+2. **Navigate to a Project and Set up its Environment:**
+Each project has its own `requirements.txt` for dependencies.
+
+```
+
+# Example for the Basic NLP Chatbot
+
+cd basic_nlp_chatbot
+python -m venv .venv           \# Create a virtual environment
+source .venv/bin/activate      \# Activate the virtual environment (Linux/macOS)
+
+# .venv\Scripts\activate       \# Activate the virtual environment (Windows Cmd)
+
+# .venv\Scripts\Activate.ps1   \# Activate the virtual environment (Windows PowerShell)
+
+pip install -r requirements.txt \# Install project-specific dependencies
+
+```
+
+Repeat this for `predicting_car_prices` as well.
+
+3. **Run the Project:**
+Once dependencies are installed, you can run the main script or notebook for each project.
+
+```
+
+# Example for the Basic NLP Chatbot
+
+python basic_nlp_chatbot.py
+
+# Example for Predicting Car Prices (run the notebook)
+
+cd ../predicting_car_prices
+jupyter notebook predicting_car_prices.ipynb
+
+```
+```
